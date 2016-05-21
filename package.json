@@ -1,4 +1,19 @@
 {
+  "_npmUser": {
+    "email": "adam@rogassi.com",
+    "name": "adamrogas"
+  },
+  "author": {
+    "name": "Adam Rogas"
+  },
+  "bugs": {
+    "url": "https://github.com/rogassi/grunt-react-pageTemplates/issues"
+  },
+  "description": "Grunt task for react-templates - that creates scaffolding that allows code behind for server pages  -> write html get valid react code + a callable component",
+  "devDependencies": { },
+  "directories": { },
+  "homepage": "https://github.com/rogassi/grunt-react-pageTemplates",
+  "license": "MIT",
   "keywords": [
     "express",
     "express3",
@@ -9,7 +24,6 @@
     "partials",
     "templates"
   ],
-  "license": "BSD-3-Clause",
   "main": "index.js",
   "name": "express-reactpagetemplates",
   "optionalDependencies": { },
@@ -18,8 +32,15 @@
     "react-dom": "0.14.8"
   },
   "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogassi/express-react-pageTemplates.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "major": "npm version major -m\"update version to %s\" && git push && git push --tags",
+    "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
+    "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
+    "test": "echo 'ok - no tests"
   },
   "version": "0.5.0"
 }
