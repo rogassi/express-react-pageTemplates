@@ -7,12 +7,12 @@
     "name": "Adam Rogas"
   },
   "bugs": {
-    "url": "https://github.com/rogassi/grunt-react-pageTemplates/issues"
+    "url": "https://github.com/rogassi/express-react-pageTemplates/issues"
   },
-  "description": "Grunt task for react-templates - that creates scaffolding that allows code behind for server pages  -> write html get valid react code + a callable component",
-  "devDependencies": {},
-  "directories": {},
-  "homepage": "https://github.com/rogassi/grunt-react-pageTemplates",
+  "description": "an express view engine for react-templates",
+  "devDependencies": { },
+  "directories": { },
+  "homepage": "https://github.com/rogassi/express-react-pageTemplates",
   "license": "MIT",
   "keywords": [
     "express",
@@ -26,7 +26,7 @@
   ],
   "main": "index.js",
   "name": "express-reactpagetemplates",
-  "optionalDependencies": {},
+  "optionalDependencies": { },
   "dependencies": {
     "react": "0.14.8",
     "react-dom": "0.14.8"
