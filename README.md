@@ -6,8 +6,6 @@ A [React Page Templates][] view engine for [Express][]
 [![npm version][npm-badge]][npm]
 [![dependency status][dep-badge]][dep-status]
 
-**This package used to be named `express3-handlebars`. The previous `express-handlebars` package by @jneen can be found [here][jneen-exphbs].**
-
 
 [Express]: https://github.com/visionmedia/express
 [npm]: https://www.npmjs.org/package/express-reactpagetemplates
